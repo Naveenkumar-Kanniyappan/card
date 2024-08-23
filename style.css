@@ -1,54 +1,83 @@
 *{
-  font-family: "Figtree", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 500,800;
-  font-size: 16px;
-}
-
+    font-family: "Figtree", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500,800;
+    font-size: 16px;
+  }
+  
 body {
-max-width: 1440px;
-width: 100%;
-margin: 0;
-padding: 0;
-background-color: hsl(47, 88%, 63%);
+  max-width: 1440px;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: hsl(47, 88%, 63%);
 }
 form {
-border: 1px solid black;
-width: 310px;
-margin: 50px auto;
-border-radius: 17px;
-background-color: hsl(0, 0%, 100%);
-box-shadow: 8px 8px;
+  border: 1px solid black;
+  width: 310px;
+  margin: 200px auto;
+  border-radius: 17px;
+  background-color: hsl(0, 0%, 100%);
+  box-shadow: 8px 8px;
 }
-.main {
-padding: 15px;
+.full-condainer {
+  padding: 15px;
 }
 
 #img1 {
-border: 1px;
-border-radius: 10px;
-width: 280px;
+  border: 1px;
+  border-radius: 10px;
+  width: 280px;
 }
 
-button {
-background-color: hsl(47, 88%, 63%);
-border: 0px;
-padding: 4.5px;
-width: 70px;
-border-radius: 3px;
-margin-top: 10px;
-font-size:16px;
-font-size: small;
-font-weight: 800;
+.contentCondainer button {
+  background-color: hsl(47, 88%, 63%);
+  border: 0px;
+  padding: 4.5px;
+  width: 70px;
+  border-radius: 3px;
+  margin-top: 10px;
+  font-size:16px;
+  font-size: small;
+  font-weight: 800;
 }
+
 .date{
-color: black;
-font-size:16px;
-font-size: small;
-font-weight: 500;
+  color: black;
+  font-size:16px;
+  font-size: small;
+  font-weight: 500;
+  margin-top: 10px;
 }
-
-
+.coreses{
+  font-size: 16px;
+  font-weight: 800;
+  margin-top: 10px;
+}
+.contentCondainer .coreses:hover{
+  color: hsl(47, 88%, 63%);
+}
+.contentCondainer .coreses:active{
+  color: hsl(47, 88%, 63%);
+}
+.para{
+  color: Gray;
+  font-size: 16px;
+  font-size: small;
+  margin-top: 10px;
+}
 #img2{
-  height: 30px;
+    height: 30px;
+    /* position:absolute; */
+    margin-top: 20px;
+}
+.name{
+  color: black;
+  font-size:16px;
+  font-size: small;
+  font-weight: 800;
+  /* margin-bottom:100px; */
+  position: relative;
+  bottom: 10px;
+  left: 5px;
 }

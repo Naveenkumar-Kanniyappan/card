@@ -30,7 +30,7 @@ form {
   width: 280px;
 }
 
-.contentCondainer button {
+.content button {
   background-color: hsl(47, 88%, 63%);
   border: 0px;
   padding: 4.5px;
@@ -54,10 +54,10 @@ form {
   font-weight: 800;
   margin-top: 10px;
 }
-.contentCondainer .coreses:hover{
+.content .coreses:hover{
   color: hsl(47, 88%, 63%);
 }
-.contentCondainer .coreses:active{
+.content .coreses:active{
   color: hsl(47, 88%, 63%);
 }
 .para{
